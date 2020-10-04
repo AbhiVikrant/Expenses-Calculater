@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header className="Header fixed-top" dark={true}>
-          My Expenses
+          <h1>MY Expenses</h1>
         </Header>{" "}
       </div>
     );
