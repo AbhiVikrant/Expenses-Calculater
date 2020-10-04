@@ -1,5 +1,6 @@
-import React, { Component } from "react";
-export const Header = ({ dark, children, className }) => {
+import React from "react";
+
+const Header = ({ dark, children, className }) => {
   dark = !!dark ? "dark" : "light";
   return (
     <nav
@@ -11,4 +12,5 @@ export const Header = ({ dark, children, className }) => {
     </nav>
   );
 };
+
 export default Header;
