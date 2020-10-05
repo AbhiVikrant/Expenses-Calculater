@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import Card from "./bootstrap/Card";
+
 import ContainerRow from "./ContainerRaw";
 import Header from "./Header/Header";
+import Screen from "./Screen/Screen";
 
 class App extends Component {
   render() {
@@ -18,7 +19,7 @@ class App extends Component {
         </div>
         <hr />
         <ContainerRow fluid={true} className="my-3">
-          <Card />
+          <Screen />
         </ContainerRow>
       </div>
     );
