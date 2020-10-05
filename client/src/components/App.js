@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Card from "./bootstrap/Card";
+import ContainerRow from "./ContainerRaw";
 import Header from "./Header/Header";
 
 class App extends Component {
@@ -15,6 +17,9 @@ class App extends Component {
           <h2>Total</h2>
         </div>
         <hr />
+        <ContainerRow fluid={true} className="my-3">
+          <Card />
+        </ContainerRow>
       </div>
     );
   }
