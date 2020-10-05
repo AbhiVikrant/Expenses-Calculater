@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = ({ dark, children, className }) => {
+const Header = ({ dark, children, className, total, data }) => {
   dark = !!dark ? "dark" : "light";
   return (
     <nav

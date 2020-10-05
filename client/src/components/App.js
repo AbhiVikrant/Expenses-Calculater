@@ -7,7 +7,14 @@ class App extends Component {
       <div className="App">
         <Header className="Header fixed-top" dark={true}>
           <h1>MY Expenses</h1>
-        </Header>{" "}
+        </Header>
+        <div
+          className=" col-sm-20 col-md-10  leftspan text-right border-right text-white "
+          id="one"
+        >
+          <h2>Total</h2>
+        </div>
+        <hr />
       </div>
     );
   }
