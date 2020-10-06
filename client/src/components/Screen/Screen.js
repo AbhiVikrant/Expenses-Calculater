@@ -1,6 +1,5 @@
 import React from "react";
 import FormGroup from "../Form/FormGroup";
-
 const Screen = ({ onChange, onSubmit }) => {
   return (
     <div className="screen">
