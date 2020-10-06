@@ -1,10 +1,10 @@
 import React from "react";
 import FormGroup from "../Form/FormGroup";
 
-const Screen = ({ onChange }) => {
+const Screen = ({ onChange, onSubmit }) => {
   return (
     <div className="screen">
-      <form onChange={onChange}>
+      <form onChange={onChange} onSubmit={onSubmit}>
         <FormGroup Type="text" Placeholder="   Title " />
         <FormGroup Type="number" Placeholder="   Amount " />
         <FormGroup Type="note" Placeholder="   Note " />
